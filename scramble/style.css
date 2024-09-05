@@ -1,0 +1,66 @@
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+.hidden {
+    display: none;
+}
+
+body {
+    background: url(assets/10600816_41524\ \(1\).jpg);
+    background-size: cover;
+
+
+}
+
+div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 250px;
+
+}
+
+
+button {
+    margin: 15px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(0, 81, 255);
+    color: bisque;
+}
+
+
+
+button:hover {
+    margin: 15px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(217, 0, 255);
+    color: rgb(255, 255, 255);
+
+}
+
+
+main>h1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Nerko One";
+
+}
+
+.game>input{
+    border: black solid 1px;
+
+}

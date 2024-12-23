@@ -42,3 +42,22 @@ This repository contains my personal web development projects, where I showcase 
 
 ```bash
 git clone https://github.com/Lord_Rahul/web-dev-projects.git
+```
+Open the index.html file in your browser to view the project.
+
+If it’s a dynamic JavaScript app (like Scrumble), just open it in your browser and follow the on-screen instructions.
+
+Contributions
+Feel free to fork this repository, clone it, and contribute to the projects. Pull requests are welcome!
+
+License
+This repository is open-source and available under the MIT License. See the LICENSE file for more details.
+
+Contact
+If you have any questions or suggestions, feel free to reach out to me at [your email] or through my GitHub profile at GitHub Profile.
+
+Happy coding! 🚀
+
+sql
+Copy code
+

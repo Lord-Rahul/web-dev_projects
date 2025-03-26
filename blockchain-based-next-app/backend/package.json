@@ -1,0 +1,34 @@
+{
+  "name": "voting-blockchain-backend",
+  "version": "1.0.0",
+  "description": "Backend for blockchain-based voting application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "deploy": "cd truffle && truffle migrate --reset",
+    "dev": "concurrently \"npm run server\" \"cd ../frontend && npm run dev\""
+  },
+  "dependencies": {
+    "@truffle/contract": "^4.5.6",
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.3.1",
+    "express-validator": "^6.14.0",
+    "framer-motion": "^12.5.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.2.10",
+    "multer": "^1.4.4",
+    "web3": "^1.7.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "author": "Rahul",
+  "license": "MIT"
+}

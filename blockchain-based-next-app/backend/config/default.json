@@ -1,0 +1,14 @@
+{
+  "database": {
+    "uri": "mongodb://localhost:27017/voting-blockchain-app"
+  },
+  "jwt": {
+    "secret": "your_jwt_secret",
+    "expiresIn": "1h"
+  },
+  "port": 5000,
+  "blockchain": {
+    "network": "development",
+    "contractAddress": "0xYourContractAddress"
+  }
+}

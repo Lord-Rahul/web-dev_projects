@@ -38,21 +38,21 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="w-full py-3 shadow bg-gray-500">
+  <header className="w-full py-3 shadow-lg bg-gradient-to-r from-blue-700 to-purple-500 sticky top-0 z-50 border-b border-blue-200/40">
       <Container>
-        <nav className="flex">
-          <div className="mr-4">
+  <nav className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
             <Link to="/">
-              <Logo width="70px" />
+              <Logo width="90px" />
             </Link>
           </div>
-          <ul className="flex ml-auto">
+          <ul className="flex gap-2 items-center">
             {navItems.map((item) =>
               item.active ? (
                 <li key={item.name}>
                   <button
                     onClick={() => navigate(item.slug)}
-                    className="inline-bock px-6 py-2 duration-200 hover:bg-blue-100 rounded-full"
+                    className="inline-block px-5 py-2 duration-200 bg-gradient-to-r from-blue-600 to-purple-500 hover:from-purple-500 hover:to-blue-600 text-white rounded-full shadow font-semibold border border-white/10 hover:scale-105 transition-transform"
                   >
                     {item.name}
                   </button>

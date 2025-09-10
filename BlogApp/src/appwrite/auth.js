@@ -42,10 +42,13 @@ export class AuthService {
     try {
       return await this.account.get();
     } catch (error) {
+      if (error && error.code === 401) {
+        // Not authenticated
+        return null;
+      }
       console.log("failed ... ", error);
-      return null
+      return null;
     }
-    return null;
   }
 
   async logout() {

@@ -1,3 +1,4 @@
+import NotFound from "./components/NotFound.jsx";
 import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
@@ -72,6 +73,10 @@ const router = createBrowserRouter([
       {
         path: "/post/:slug",
         element: <Post />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
       },
     ],
   },

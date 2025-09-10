@@ -27,14 +27,6 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/login",
-        element: (
-          <Protected authentication={false}>
-            <Login />
-          </Protected>
-        ),
-      },
-      {
         path: "/signup",
         element: (
           <Protected authentication={false}>

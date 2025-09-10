@@ -8,7 +8,7 @@ import {useForm} from 'react-hook-form'
 
 function Signup() {
     const navigate = useNavigate()
-    const [error, setError] = useState("")
+    let [errorr, setError] = useState("")
     const dispatch = useDispatch()
     const {register, handleSubmit} = useForm()
 
@@ -44,7 +44,7 @@ function Signup() {
                         Sign In
                     </Link>
                 </p>
-                {error && <p className="text-red-600 mt-8 text-center">{error}</p>}
+                {errorr && <p className="text-red-600 mt-8 text-center">{errorr}</p>}
 
                 <form onSubmit={handleSubmit(create)}>
                     <div className='space-y-5'>
